@@ -1,116 +1,116 @@
-# 🎮 GAMELAND - Modern Portfolio Website
+# 🎮 GAMELAND - Website Portfolio Modern
 
 ![GAMELAND Preview](https://github.com/user-attachments/assets/c9a3e15f-c8fc-4ffc-9713-59c7b692b721)
 
-A cutting-edge portfolio website featuring immersive 3D animations, stylish preloader, and interactive music toggle. Designed for modern developers and creatives looking to showcase their work in an engaging way.
+Website portfolio canggih dengan animasi 3D imersif, preloader stylish, dan toggle musik interaktif. Dirancang untuk developer dan kreatif modern yang ingin memamerkan karya mereka dengan cara yang menarik.
 
-## ✨ Key Features
+## ✨ Fitur Utama
 
-### 🎨 Visual Experience
-- **3D Card Effects** - Interactive hover cards with depth and perspective
-- **Scroll Mask Animation** - Dynamic image reveals on scroll
-- **Stylish Preloader** - Elegant loading animation before content appears
-- **Smooth Animations** - Fluid transitions and movements throughout
+### 🎨 Pengalaman Visual
+- **Efek Kartu 3D** - Kartu interaktif dengan kedalaman dan perspektif
+- **Animasi Mask Scroll** - Gambar terungkap secara dinamis saat discroll
+- **Preloader Stylish** - Animasi loading elegan sebelum konten muncul
+- **Animasi Halus** - Transisi dan pergerakan yang fluid
 
-### 🎵 Interactive Elements
-- **Music Toggle** - Background audio control with visual feedback
-- **Responsive Design** - Seamless experience across all devices
-- **Parallax Effects** - Layered depth for enhanced visual appeal
+### 🎵 Elemen Interaktif
+- **Toggle Musik** - Kontrol audio latar dengan feedback visual
+- **Desain Responsif** - Pengalaman mulus di semua perangkat
+- **Efek Parallax** - Kedalaman berlapis untuk daya tarik visual
 
-### 📱 Technical Excellence
-- **Mobile-First Approach** - Optimized for touch and mobile interactions
-- **Performance Optimized** - Fast loading and smooth animations
-- **Clean Code Structure** - Maintainable and scalable architecture
+### 📱 Keunggulan Teknis
+- **Pendekatan Mobile-First** - Dioptimalkan untuk interaksi sentuh dan mobile
+- **Optimasi Performa** - Loading cepat dan animasi halus
+- **Struktur Kode Bersih** - Arsitektur yang mudah dikelola dan dikembangkan
 
-## 🛠 Tech Stack
+## 🛠 Stack Teknologi
 
-| Technology | Purpose |
-|------------|---------|
-| **HTML5** | Semantic markup structure |
-| **SCSS/CSS** | Advanced styling with BEM methodology |
-| **JavaScript (ES6+)** | Interactive functionality |
-| **GSAP** | Professional-grade animations |
-| **GreenSock ScrollTrigger** | Scroll-based animations |
-| **Modern CSS3** | 3D transforms, flexbox, grid |
+| Teknologi | Tujuan |
+|-----------|---------|
+| **HTML5** | Struktur markup semantik |
+| **SCSS/CSS** | Styling lanjutan dengan metodologi BEM |
+| **JavaScript (ES6+)** | Fungsi interaktif |
+| **GSAP** | Animasi tingkat profesional |
+| **GreenSock ScrollTrigger** | Animasi berbasis scroll |
+| **CSS3 Modern** | Transform 3D, flexbox, grid |
 
-## 🚀 Getting Started
+## 🚀 Memulai
 
-### Prerequisites
-- Modern web browser with CSS3 and JavaScript ES6+ support
-- Local server for development (optional)
+### Prasyarat
+- Browser web modern dengan dukungan CSS3 dan JavaScript ES6+
+- Server lokal untuk pengembangan (opsional)
 
-### Installation
-1. Clone the repository:
+### Instalasi
+1. Clone repository:
 ```bash
-git clone https://github.com/yourusername/gameland-portfolio.git
+git clone https://github.com/namapengguna/gameland-portfolio.git
 ```
 
-2. Navigate to the project directory:
+2. Masuk ke direktori proyek:
 ```bash
 cd gameland-portfolio
 ```
 
-3. Open `index.html` in your browser or use a local server:
+3. Buka `index.html` di browser atau gunakan server lokal:
 ```bash
-# Using Python
+# Menggunakan Python
 python -m http.server 8000
 
-# Using Node.js
+# Menggunakan Node.js
 npx serve
 ```
 
-## 📁 Project Structure
+## 📁 Struktur Proyek
 
 ```
 gameland-portfolio/
-├── index.html              # Main HTML file
+├── index.html              # File HTML utama
 ├── css/
-│   ├── main.css           # Compiled CSS
-│   └── styles.scss        # SCSS source files
+│   ├── main.css           # CSS yang dikompilasi
+│   └── styles.scss        # File sumber SCSS
 ├── js/
-│   ├── main.js            # Main JavaScript file
-│   ├── animations.js      # GSAP animations
-│   └── music-player.js    # Audio controls
+│   ├── main.js            # File JavaScript utama
+│   ├── animations.js      # Animasi GSAP
+│   └── music-player.js    # Kontrol audio
 ├── assets/
-│   ├── images/            # Image resources
-│   ├── models/            # 3D models (if any)
-│   └── audio/             # Background music
-└── README.md              # This file
+│   ├── images/            # Sumber daya gambar
+│   ├── models/            # Model 3D (jika ada)
+│   └── audio/             # Musik latar
+└── README.md              # File ini
 ```
 
-## 🎯 Usage Examples
+## 🎯 Contoh Penggunaan
 
-### Music Toggle
-The website features a background music player with toggle controls:
-- Click the music icon to play/pause
-- Visual feedback shows audio state
-- Volume controls (if implemented)
+### Toggle Musik
+Website menampilkan pemutar musik latar dengan kontrol toggle:
+- Klik ikon musik untuk play/pause
+- Feedback visual menunjukkan status audio
+- Kontrol volume (jika diimplementasikan)
 
-### 3D Card Interaction
-Hover over portfolio cards to experience:
-- Depth and perspective shifts
-- Smooth transition animations
-- Content reveals on interaction
+### Interaksi Kartu 3D
+Arahkan kursor ke kartu portfolio untuk merasakan:
+- Pergeseran kedalaman dan perspektif
+- Animasi transisi yang halus
+- Konten terungkap saat interaksi
 
-### Scroll Animations
-As you scroll through the website:
-- Images reveal with mask effects
-- Elements fade in and out smoothly
-- Parallax layers create depth
+### Animasi Scroll
+Saat menggulir website:
+- Gambar terungkap dengan efek mask
+- Elemen muncul dan menghilang dengan halus
+- Lapisan parallax menciptakan kedalaman
 
-## 🔧 Development
+## 🔧 Pengembangan
 
-### SCSS Structure
+### Struktur SCSS
 ```scss
-// BEM Methodology Example
+// Contoh Metodologi BEM
 .block {}
 .block__element {}
 .block--modifier {}
 ```
 
-### Animation Setup
+### Setup Animasi
 ```javascript
-// Example GSAP animation
+// Contoh animasi GSAP
 gsap.from('.card', {
   duration: 1,
   opacity: 0,
@@ -120,13 +120,13 @@ gsap.from('.card', {
 });
 ```
 
-### Adding New Sections
-1. Create HTML structure with appropriate BEM classes
-2. Style in SCSS following existing patterns
-3. Add animations in JavaScript files
-4. Test across different viewport sizes
+### Menambah Section Baru
+1. Buat struktur HTML dengan kelas BEM yang sesuai
+2. Styling di SCSS mengikuti pola yang ada
+3. Tambahkan animasi di file JavaScript
+4. Test di berbagai ukuran viewport
 
-## 🌐 Browser Support
+## 🌐 Dukungan Browser
 
 - Chrome 60+
 - Firefox 55+
@@ -134,72 +134,72 @@ gsap.from('.card', {
 - Edge 79+
 - Opera 50+
 
-## 📱 Responsive Breakpoints
+## 📱 Breakpoint Responsif
 
-| Device | Breakpoint | Features |
-|--------|------------|----------|
-| Mobile | < 768px | Touch-optimized, simplified animations |
-| Tablet | 768px - 1024px | Adapted layouts, reduced effects |
-| Desktop | > 1024px | Full 3D effects, complex animations |
+| Perangkat | Breakpoint | Fitur |
+|-----------|------------|-------|
+| Mobile | < 768px | Dioptimalkan sentuh, animasi disederhanakan |
+| Tablet | 768px - 1024px | Layout disesuaikan, efek dikurangi |
+| Desktop | > 1024px | Efek 3D penuh, animasi kompleks |
 
-## 🎨 Customization
+## 🎨 Kustomisasi
 
-### Changing Colors
-Modify the SCSS variables in `_variables.scss`:
+### Mengubah Warna
+Modifikasi variabel SCSS di `_variables.scss`:
 ```scss
 $primary-color: #ff6b6b;
 $secondary-color: #4ecdc4;
 $background-dark: #121212;
 ```
 
-### Adding Content
-1. Portfolio Items: Add cards in the portfolio section
-2. Music: Replace audio files in `/assets/audio/`
-3. Images: Optimize images for web and add to `/assets/images/`
+### Menambah Konten
+1. Item Portfolio: Tambahkan kartu di section portfolio
+2. Musik: Ganti file audio di `/assets/audio/`
+3. Gambar: Optimalkan gambar untuk web dan tambahkan ke `/assets/images/`
 
-## 📊 Performance Tips
+## 📊 Tips Performa
 
-1. **Image Optimization**: Use WebP format with JPEG fallbacks
-2. **Animation Optimization**: Use `will-change` property strategically
-3. **Lazy Loading**: Implement for images below the fold
-4. **Code Splitting**: Separate animation logic for better loading
+1. **Optimasi Gambar**: Gunakan format WebP dengan fallback JPEG
+2. **Optimasi Animasi**: Gunakan properti `will-change` secara strategis
+3. **Lazy Loading**: Implementasikan untuk gambar di bawah fold
+4. **Code Splitting**: Pisahkan logika animasi untuk loading lebih baik
 
-## 🤝 Contributing
+## 🤝 Berkontribusi
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+1. Fork repository
+2. Buat branch fitur (`git checkout -b fitur/FiturMenakjubkan`)
+3. Commit perubahan (`git commit -m 'Tambahkan FiturMenakjubkan'`)
+4. Push ke branch (`git push origin fitur/FiturMenakjubkan`)
+5. Buka Pull Request
 
-## 📝 License
+## 📝 Lisensi
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+Proyek ini dilisensikan di bawah Lisensi MIT - lihat file LICENSE untuk detail.
 
-## 🙏 Acknowledgments
+## 🙏 Ucapan Terima Kasih
 
-- GSAP team for the amazing animation library
-- Inspiration from modern gaming websites
-- Community contributors for feedback and testing
+- Tim GSAP untuk library animasi yang luar biasa
+- Inspirasi dari website gaming modern
+- Kontributor komunitas untuk feedback dan testing
 
-## 📞 Support
+## 📞 Dukungan
 
-For issues, questions, or suggestions:
-1. Check the [Issues](https://github.com/yourusername/gameland-portfolio/issues) page
-2. Create a new issue with detailed description
-3. Email: your.email@example.com
+Untuk issues, pertanyaan, atau saran:
+1. Cek halaman [Issues](https://github.com/namapengguna/gameland-portfolio/issues)
+2. Buat issue baru dengan deskripsi detail
+3. Email: email.anda@contoh.com
 
 ---
 
-**Built with ❤️ for the creative community** | **Version 1.0.0**
+**Dibuat dengan ❤️ untuk komunitas kreatif** | **Versi 1.0.0**
 
 ---
 
 <div align="center">
   
-### ⭐ If you like this project, give it a star on GitHub!
+### ⭐ Jika Anda menyukai proyek ini, beri bintang di GitHub!
 
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/gameland-portfolio?style=social)](https://github.com/yourusername/gameland-portfolio)
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/gameland-portfolio?style=social)](https://github.com/yourusername/gameland-portfolio)
+[![GitHub stars](https://img.shields.io/github/stars/namapengguna/gameland-portfolio?style=social)](https://github.com/namapengguna/gameland-portfolio)
+[![GitHub forks](https://img.shields.io/github/forks/namapengguna/gameland-portfolio?style=social)](https://github.com/namapengguna/gameland-portfolio)
 
 </div>

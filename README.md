@@ -4,6 +4,10 @@
 
 Website portfolio canggih dengan animasi 3D imersif, preloader stylish, dan toggle musik interaktif. Dirancang untuk developer dan kreatif modern yang ingin memamerkan karya mereka dengan cara yang menarik.
 
+## 🌐 Live Demo
+
+**[🔗 Klik di sini untuk melihat Live Demo](https://muhammad-r-dev.github.io/Gaming-Website-Design/)**
+
 ## ✨ Fitur Utama
 
 ### 🎨 Pengalaman Visual
@@ -196,7 +200,10 @@ Untuk issues, pertanyaan, atau saran:
 ---
 
 <div align="center">
-  
+
+### 🔗 Tautan Penting
+[**🌐 Live Demo**](https://muhammad-r-dev.github.io/Gaming-Website-Design/) | [**📂 Repository GitHub**](https://github.com/namapengguna/gameland-portfolio)
+
 ### ⭐ Jika Anda menyukai proyek ini, beri bintang di GitHub!
 
 [![GitHub stars](https://img.shields.io/github/stars/namapengguna/gameland-portfolio?style=social)](https://github.com/namapengguna/gameland-portfolio)
